@@ -55,7 +55,7 @@ a {
   position: fixed;
   justify-content: flex-end;
   width: 100%;
-  background: var(--main-purp);
+  background: var(--main-light);
   top: 0;
   left: 0;
 }
@@ -78,7 +78,7 @@ a {
 }
 
 .navlist a:hover {
-  background: var(--main-light);
+  color: var(--main-purp);
 }
 
 /* Welcome section */
@@ -86,7 +86,7 @@ a {
 .welcome {
   width: 100%;
   height: 100vh;
-  background-color: var(--main-dark);
+  background: linear-gradient(150deg, var(--main-light) 10%, var(--main-dark));
   text-align: center;
   display: flex;
   justify-content: center;
@@ -122,6 +122,7 @@ a {
 
 .project-tile:hover {
   box-shadow: 0 0 15px var(--main-dark);
+  color: var(--main-purp);
 }
 
 @media (max-width: 350px) {
